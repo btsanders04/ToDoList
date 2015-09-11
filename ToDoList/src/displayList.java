@@ -112,7 +112,7 @@ public class displayList extends HttpServlet {
 		return sQuery.getSingleResult();
 	}
 
-	protected String getPriority(int priority) {
+	public String getPriority(int priority) {
 		switch (priority) {
 		case (1):
 			return "low";
